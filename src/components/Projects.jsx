@@ -31,12 +31,12 @@ const Projects = () => {
 
       <br></br>
 
-      <div className="bg-white rounded-lg m-8 p-8 border-8 justify-center">
-        <img src={expressImage} width={700} height={250}></img>
+      <div className="bg-white rounded-lg m-8 p-8 border-8 flex flex-col items-center">
+        <img src={expressImage} width={700} height={250} className="border-4"></img>
         <br></br>
         <Link
           to="https://github.com/ghern5234/Express-Note-Taker.git"
-          className="flex flex-row items-center justify-center text-2xl underline"
+          className="flex justify-center text-2xl underline border-4 rounded-lg w-1/2"
         >
           Express Note Taker
         </Link>
