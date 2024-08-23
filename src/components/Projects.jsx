@@ -9,8 +9,8 @@ import weatherDashboardImage from "../assets/WeatherDashboard.png";
 const Projects = () => {
   return (
     <>
-<div className="rounded-lg m-8 p-8 border-8 w-full">
-  <div className="flex w-full flex-col border-opacity-50 items-center">
+
+  <div className="bg-white rounded-lg m-8 p-8 border-8 flex flex-col items-center">
     <img src={sliceOverflowImage} width={700} height={250} className="border-8 rounded-lg m-8"></img>
     <Link
           to="https://sliceoverflow-1.onrender.com/"
@@ -22,7 +22,6 @@ const Projects = () => {
         <p className="border-4 rounded-md w-1/2 text-lg m-5 p-5 ">A full stack pizza ordering application that enables users to explore a menu of pizzas, select items for their cart, and place orders seamlessly. Key features include user account creation, secure login with authentication, cart management for adding pizzas, and a streamlined checkout process.
         </p>
    </div>
-</div>
 
 
 
