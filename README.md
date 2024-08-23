@@ -1,6 +1,6 @@
 # React Web Portfolio
 
-Welcome to my React Web Portfolio! This is is a personal portfolio website built using React. It showcases my projects, skills, and experiences in web development and design. The site is fully responsive and optimized for both desktop and mobile devices.
+Welcome to my React Web Portfolio! This is is a personal portfolio website built using React and other framework such as Daisy and Tailwind. It showcases my projects, skills, and experiences in web development and design. The site is fully responsive and optimized for both desktop and mobile devices.
 
 
 ## Features

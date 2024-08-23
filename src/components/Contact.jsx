@@ -1,4 +1,4 @@
-import emailImage from '../assets/mail.png'
+import emailImage from '../assets/mail2.png'
 import gitImage from '../assets/github.png'
 import linkedInImage from '../assets/linkedin.png'
 import { Link } from "react-router-dom";
