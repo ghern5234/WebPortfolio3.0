@@ -36,7 +36,7 @@ const Projects = () => {
         <br></br>
         <Link
           to="https://github.com/ghern5234/Express-Note-Taker.git"
-          className="flex justify-center text-2xl underline border-4 rounded-lg w-1/2"
+          className="flex justify-center text-xl underline border-4 rounded-lg w-1/2 p-3 font-bold "
         >
           Express Note Taker
         </Link>
