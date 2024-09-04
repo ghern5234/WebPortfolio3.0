@@ -5,13 +5,25 @@ const Homepage = () => {
     return (
 
         <>
-        <div className='flex items-center'>
+        <div className='flex items-center relative'>
           
-          <img src={imageIcon} className='z-[-1] mt-64 h-1/2 w-1/2 flex justify-start '></img>
-
-          <p className='text-7xl alegreya transition-all duration-300 hover:scale-110'>George Hernandez</p>
+          <img src={imageIcon} className='z-[-1] mt-64 h-1/2 w-1/2 object-scale-down'></img>
+          <p className='text-5xl alegreya transition-all duration-300 hover:scale-110 text-center relative right-0'>George Hernandez</p>
+          <p className='text-5xl alegreya transition-all duration-300 hover:scale-110 text-center relative right-0'>Full Stack Web Developer</p>
         
         </div>
+
+
+{/* 
+<section className='flex items-center w-full'>
+                <div className=''>
+                <img src={imageIcon} className='z-[-1] h-1/2 w-1/2'></img>
+                </div>
+                <div className='bg-white rounded-xl p-9 px-9 m-6'>
+                 
+                
+                </div>
+            </section> */}
 
         </>
     )

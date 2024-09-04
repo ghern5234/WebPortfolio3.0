@@ -33,32 +33,35 @@ const About = () => {
             Feel free to connect with me on Linked, checkout some of my work on GitHub, or send me an email!
              </p>
            </div>
+
+           <div className='flex justify-evenly '> 
+
+           
+        
+           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
+          
+           </div>
+           <div  className='flex justify-evenly m-24'>
+           
+           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/handlebars/handlebars-original-wordmark.svg" />
+           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" />
+           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" />
+           </div>
+
+           <div className='flex justify-evenly m-24'>
+           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg" />
+           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
+          
+          
+          
+          
+          
+           </div>
       
-          <div className='flex flex-row flex-wrap p-8 rounded-md m-28 justify-evenly bg-black' >
-          <img src={javaScriptImage} width={200} height={250} className='rounded m-2'></img>
-
-          <img src={cssImage} width={200} height={250} className='rounded m-2'></img>
-
-          <img src={nodeImage} width={200} height={250} className='rounded m-2'></img>
-
-
-          <img src={expressImage} width={200} height={250} className='rounded m-2'></img>
-
-          <img src={reactImage} width={200} height={250} className='rounded m-2'></img>
-</div>
-
-<div className='flex flex-row flex-wrap p-8 rounded-md m-28 justify-evenly bg-black' >
-          <img src={handlebarsImage} width={200} height={250} className='rounded m-2'></img>
-     
-
-          <img src={graphQLImage} width={200} height={250} className='rounded m-2'></img>
-
-          <img src={mongoDbImage} width={200} height={250} className='rounded m-2'></img>
-
-          <img src={pgImage} width={200} height={250} className='rounded m-2'></img>
-
-
-          </div>
       </div>
       </>
     )
