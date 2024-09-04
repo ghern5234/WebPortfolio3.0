@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <>
 
-  <div className="bg-white rounded-lg m-8 p-8 border-8 flex flex-col items-center">
+  <div className="bg-white rounded-lg m-8 p-8 flex flex-col items-center">
     <img src={sliceOverflowImage} width={700} height={250} className="border-8 rounded-lg m-8"></img>
     <Link
           to="https://sliceoverflow-1.onrender.com/"
@@ -30,7 +30,7 @@ const Projects = () => {
 
       <br></br>
 
-      <div className="bg-white rounded-lg m-8 p-8 border-8 flex flex-col items-center">
+      <div className="bg-white rounded-lg m-8 p-8 flex flex-col items-center">
         <img src={expressImage} width={700} height={250} className="border-4"></img>
         <br></br>
         <Link

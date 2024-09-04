@@ -13,9 +13,9 @@ import pgImage from '../assets/pg.png'
 const About = () => {
     return (
      <>
-      <div className='z-[1]' >
+      <div className='z-[1]'>
         
-          <div className='bg-white rounded-md m-28 p-12 border-4'>
+          <section className='bg-white rounded-md m-28 p-12 border-2'>
              <p className='m-4 indent-10 alegreya text-2xl '>
             Greetings! My name is George Hernandez based in Austin, Texas. Following my passion to become a full-stack software developer.
             I am a recent graduate of the UT Austin coding bootcamp, finishing out with a 90 GPA and honorary mentions.
@@ -32,35 +32,34 @@ const About = () => {
             Having created and lead the development of multiple full-stack applicatons, I feel confident I would be an asset to any team or company. Excited at the opportunity to apply my learning and grow as a developer in industry! 
             Feel free to connect with me on Linked, checkout some of my work on GitHub, or send me an email!
              </p>
-           </div>
+           </section>
 
-           <div className='flex justify-evenly '> 
+
+           <section className='flex justify-evenly m-24'>
+           
+          <p className='alegreya text-3xl'> Skills, Tools and Technologies</p>
+          
+           </section>
+           <div className='flex justify-between '> 
 
            
         
-           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
-           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
-           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
-          
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" className='transition-all duration-300 hover:scale-125'/>
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"  className='transition-all duration-300 hover:scale-125'/>
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"  className='transition-all duration-300 hover:scale-125' />
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"  className='transition-all duration-300 hover:scale-125'/>
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"  className='transition-all duration-300 hover:scale-125'/>
            </div>
-           <div  className='flex justify-evenly m-24'>
+           <div  className='flex justify-between m-16'>
            
-           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
-           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/handlebars/handlebars-original-wordmark.svg" />
-           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" />
-           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" />
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"  className='transition-all duration-300 hover:scale-125'/>
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/handlebars/handlebars-original-wordmark.svg"  className='transition-all duration-300 hover:scale-125'/>
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"  className='transition-all duration-300 hover:scale-125'/>
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"  className='transition-all duration-300 hover:scale-125'/>
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg"  className='transition-all duration-300 hover:scale-125'/>
            </div>
 
-           <div className='flex justify-evenly m-24'>
-           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg" />
-           <img width={200} height={250} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
-          
-          
-          
-          
-          
-           </div>
+
       
       </div>
       </>

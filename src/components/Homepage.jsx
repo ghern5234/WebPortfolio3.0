@@ -5,10 +5,10 @@ const Homepage = () => {
     return (
 
         <>
-        <div className='flex items-center relative'>
+        <div className='flex items-center relative flex-col'>
           
-          <img src={imageIcon} className='z-[-1] mt-64 h-1/2 w-1/2 object-scale-down'></img>
-          <p className='text-5xl alegreya transition-all duration-300 hover:scale-110 text-center relative right-0'>George Hernandez</p>
+          <img src={imageIcon} className='z-[-1] mt-28 h-1/2 w-1/2 object-scale-down'></img>
+          <p className='text-9xl alegreya transition-all duration-300 hover:scale-110 text-center relative right-0'>George Hernandez</p>
           <p className='text-5xl alegreya transition-all duration-300 hover:scale-110 text-center relative right-0'>Full Stack Web Developer</p>
         
         </div>

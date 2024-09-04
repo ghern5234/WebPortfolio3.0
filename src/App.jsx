@@ -7,7 +7,7 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-     <div className='w-screen flex flex-col items-center'>
+     <div className='w-screen flex flex-col items-center h-dvh'>
      <Navbar />
       <div className='max-w-[1300px]' style={{
         minHeight:`calc(100vh - ${NAVBAR_REM_HEIGHT}rem`
