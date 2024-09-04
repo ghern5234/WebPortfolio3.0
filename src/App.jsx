@@ -9,7 +9,7 @@ function App() {
     <>
      <div className='w-screen flex flex-col items-center'>
      <Navbar />
-      <div className='max-w-[1800px]' style={{
+      <div className='max-w-[1300px]' style={{
         minHeight:`calc(100vh - ${NAVBAR_REM_HEIGHT}rem`
       }}> <div className='flex flex-col items-center bg- min-h-screen'><Outlet /></div></div>
       </div>

@@ -13,7 +13,7 @@ import pgImage from '../assets/pg.png'
 const About = () => {
     return (
      <>
-      <div className='z-[1]'>
+      <div className='z-[1]' >
         
           <div className='bg-white rounded-md m-28 p-12 border-4'>
              <p className='m-4 indent-10 alegreya text-2xl '>
