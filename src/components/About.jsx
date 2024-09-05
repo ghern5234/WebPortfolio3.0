@@ -44,12 +44,54 @@ const About = () => {
 
            
         
-           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" className='transition-all duration-300 hover:scale-125'/>
-           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"  className='transition-all duration-300 hover:scale-125'/>
-           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"  className='transition-all duration-300 hover:scale-125' />
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" className='transition-all duration-300 hover:scale-125' onClick={()=>document.getElementById('my_modal_2').showModal()}/>
+             <dialog id="my_modal_2" className="modal">
+               <div className="modal-box p-12 ">
+                <h3 className="font-bold text-2xl">HTML</h3>
+                <p className="py-4 text-2xl">HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. It defines the basic framework of a webpage by using elements like headings, paragraphs, links, images, and other multimedia. HTML works in tandem with CSS and JavaScript to build and style interactive and visually appealing websites. It's the foundation of web development and essential for anyone looking to create or edit web pages.</p>
+               </div>
+               <form method="dialog" className="modal-backdrop">
+                 <button>close</button>
+               </form>
+               </dialog>
+ 
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"  className='transition-all duration-300 hover:scale-125'  onClick={()=>document.getElementById('my_modal_3').showModal()}/>
+           <dialog id="my_modal_3" className="modal">
+               <div className="modal-box">
+                <h3 className="font-bold text-lg">CSS</h3>
+                <p className="py-4">CSS (Cascading Style Sheets) is the language used to style and format the layout of web pages. It controls the appearance of HTML elements, including colors, fonts, spacing, and positioning, bringing design and visual appeal to websites.</p>
+               </div>
+               <form method="dialog" className="modal-backdrop">
+                 <button>close</button>
+               </form>
+               </dialog>
+
+           <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"  className='transition-all duration-300 hover:scale-125' onClick={()=>document.getElementById('my_modal_4').showModal()}/>
+           <dialog id="my_modal_4" className="modal">
+               <div className="modal-box">
+                <h3 className="font-bold text-lg">Hello!</h3>
+                <p className="py-4">Press ESC key or click outside to close</p>
+               </div>
+               <form method="dialog" className="modal-backdrop">
+                 <button>close</button>
+               </form>
+               </dialog>
+
            <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"  className='transition-all duration-300 hover:scale-125'/>
+           <dialog id="my_modal_2" className="modal">
+               <div className="modal-box">
+                <h3 className="font-bold text-lg">Hello!</h3>
+                <p className="py-4">Press ESC key or click outside to close</p>
+               </div>
+               <form method="dialog" className="modal-backdrop">
+                 <button>close</button>
+               </form>
+               </dialog>
+           
            <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"  className='transition-all duration-300 hover:scale-125'/>
            </div>
+
+  
            <div  className='flex justify-between m-16'>
            
            <img width={150} height={200} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"  className='transition-all duration-300 hover:scale-125'/>

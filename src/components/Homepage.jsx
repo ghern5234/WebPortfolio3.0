@@ -4,7 +4,7 @@ import imageIcon from '../assets/IconOnly.png'
 const Homepage = () => {
     return (
 
-        <>
+        <div className=''>
         <div className='flex items-center relative flex-col'>
           
           <img src={imageIcon} className='z-[-1] h-1/2 w-1/2 object-scale-down'></img>
@@ -25,7 +25,7 @@ const Homepage = () => {
                 </div>
             </section> */}
 
-        </>
+        </div>
     )
 }
 
