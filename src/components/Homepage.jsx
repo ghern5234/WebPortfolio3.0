@@ -5,7 +5,7 @@ const Homepage = () => {
     return (
 
         <div className=''>
-        <div className='flex items-center relative flex-col'>
+        <div className='flex items-center relative flex-col h-screen'>
           
           <img src={imageIcon} className='z-[-1] h-1/2 w-1/2 object-scale-down'></img>
           <p className='text-9xl alegreya transition-all duration-300 hover:scale-110 text-center relative right-0'>George Hernandez</p>
