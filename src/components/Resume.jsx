@@ -11,7 +11,7 @@ const Resume = () => {
           <Link
             to="https://docs.google.com/document/d/1tCxIVA0NS-QiEp2HMYAdWiIbxOnNmCYfNhYwDtg5hc4/edit?usp=sharing"
             className=" text-xl underline border-4 rounded-lg w-1/2 p-3 font-bold text-center"
-            >Click here to view full Resume!</Link>
+            >Click here to view full resume!</Link>
         </div>
         </>
     )
