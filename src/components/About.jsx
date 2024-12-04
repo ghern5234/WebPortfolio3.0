@@ -51,16 +51,16 @@ const About = () => {
           />
           <dialog id="my_modal_2" className="modal">
             <div className="modal-box p-12">
-              <h3 className="font-bold text-2xl text-center">HTML</h3>
-              <p className="py-4 text-xl indent-10 ">
+              <h3 className="font-bold text-lg text-center pt-3">HTML</h3>
+              <p className="py-5 px-3 text-lg">
                 HTML (HyperText Markup Language) is the standard language used
                 to create and structure content on the web. It defines the basic
                 framework of a webpage by using elements like headings,
                 paragraphs, links, images, and other multimedia. HTML works in
                 tandem with CSS and JavaScript to build and style interactive
-                and visually appealing websites. It's the foundation of web
-                development and essential for anyone looking to create or edit
-                web pages.
+                and visually appealing websites. The foundational language of
+                web development and essential for anyone looking to create or
+                edit web pages.
               </p>
             </div>
             <form method="dialog" className="modal-backdrop">
@@ -77,10 +77,8 @@ const About = () => {
           />
           <dialog id="my_modal_3" className="modal">
             <div className="modal-box p-12">
-              <h3 className="font-bold text-2xl text-center underline transition-all duration-300 hover:scale-125">
-                CSS
-              </h3>
-              <p className="py-4 text-xl indent-7">
+              <h3 className="font-bold text-lg text-center pt-3">CSS</h3>
+              <p className="py-5 px-3 text-lg">
                 CSS (Cascading Style Sheets) is the language used to style and
                 format the layout of web pages. It controls the appearance of
                 HTML elements, including colors, fonts, spacing, and
@@ -100,9 +98,9 @@ const About = () => {
             onClick={() => document.getElementById("my_modal_4").showModal()}
           />
           <dialog id="my_modal_4" className="modal">
-            <div className="modal-box">
-              <h3 className="font-bold text-xl">JavaScript</h3>
-              <p className="py-4 text-xl">
+            <div className="modal-box p-12">
+              <h3 className="font-bold text-lg text-center pt-3">JavaScript</h3>
+              <p className="py-5 px-3 text-lg">
                 JavaScript is a versatile programming language that brings
                 interactivity and dynamic functionality to web pages. It allows
                 developers to create features like animations, form validations,
@@ -121,11 +119,22 @@ const About = () => {
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"
             className="transition-all duration-300 hover:scale-125"
+            onClick={() => document.getElementById("my_modal_5").showModal()}
           />
-          <dialog id="my_modal_2" className="modal">
-            <div className="modal-box">
-              <h3 className="font-bold text-lg">Hello!</h3>
-              <p className="py-4">Press ESC key or click outside to close</p>
+          <dialog id="my_modal_5" className="modal">
+            <div className="modal-box p-12">
+              <h3 className="font-bold text-lg text-center pt-3">
+                Node Package Manager
+              </h3>
+              <p className="py-5 px-3 text-lg">
+                NPM is a widely-used package manager for JavaScript, designed to
+                help developers manage dependencies in their projects. It comes
+                bundled with Node.js and enables easy installation, updating,
+                and sharing of reusable code modules. With a vast registry of
+                open-source packages, npm streamlines development by providing
+                tools to manage versioning, automate tasks, and simplify
+                collaboration across teams.
+              </p>
             </div>
             <form method="dialog" className="modal-backdrop">
               <button>close</button>
@@ -137,7 +146,18 @@ const About = () => {
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
             className="transition-all duration-300 hover:scale-125"
+            onClick={() => document.getElementById("my_modal_7").showModal()}
           />
+
+          <dialog id="my_modal_7" className="modal">
+            <div className="modal-box">
+              <h3 className="font-bold text-lg">Vite</h3>
+              <p className="py-4">Press ESC key or click outside to close</p>
+            </div>
+            <form method="dialog" className="modal-backdrop">
+              <button>close</button>
+            </form>
+          </dialog>
         </div>
 
         <div className="flex justify-evenly m-16">
@@ -146,7 +166,17 @@ const About = () => {
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
             className="transition-all duration-300 hover:scale-125"
+            onClick={() => document.getElementById("my_modal_6").showModal()}
           />
+          <dialog id="my_modal_6" className="modal">
+            <div className="modal-box">
+              <h3 className="font-bold text-lg">Hello!</h3>
+              <p className="py-4">modal 6</p>
+            </div>
+            <form method="dialog" className="modal-backdrop">
+              <button>close</button>
+            </form>
+          </dialog>
           <img
             width={150}
             height={200}
