@@ -34,10 +34,12 @@ const About = () => {
           </p>
         </section>
 
-        <section className="flex justify-evenly m-24">
+        <section className="">
           <p className="alegreya text-5xl text-center mb-8 ">
-            {" "}
             Skills, Tools and Technologies
+          </p>
+          <p className="alegreya text-center text-lg">
+            Click on each icon to learn more!
           </p>
         </section>
 
