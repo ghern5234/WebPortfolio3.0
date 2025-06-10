@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <>
@@ -48,7 +46,7 @@ const About = () => {
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
             onClick={() => document.getElementById("my_modal_2").showModal()}
           />
           <dialog id="my_modal_2" className="modal">
@@ -74,7 +72,7 @@ const About = () => {
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
             onClick={() => document.getElementById("my_modal_3").showModal()}
           />
           <dialog id="my_modal_3" className="modal">
@@ -96,7 +94,7 @@ const About = () => {
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
             onClick={() => document.getElementById("my_modal_4").showModal()}
           />
           <dialog id="my_modal_4" className="modal">
@@ -120,7 +118,7 @@ const About = () => {
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
             onClick={() => document.getElementById("my_modal_5").showModal()}
           />
           <dialog id="my_modal_5" className="modal">
@@ -147,7 +145,7 @@ const About = () => {
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
             onClick={() => document.getElementById("my_modal_7").showModal()}
           />
 
@@ -162,12 +160,12 @@ const About = () => {
           </dialog>
         </div>
 
-        <div className="flex justify-evenly m-16">
+        <div className="flex justify-between m-16">
           <img
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
             onClick={() => document.getElementById("my_modal_6").showModal()}
           />
           <dialog id="my_modal_6" className="modal">
@@ -183,25 +181,25 @@ const About = () => {
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/handlebars/handlebars-original-wordmark.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
           />
           <img
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
           />
           <img
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
           />
           <img
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
           />
         </div>
 
@@ -210,21 +208,14 @@ const About = () => {
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original-wordmark.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
           />
 
           <img
             width={150}
             height={200}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
-            className="transition-all duration-300 hover:scale-125"
-          />
-
-          <img
-            width={150}
-            height={700}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg"
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 cursor-pointer"
           />
         </div>
       </div>

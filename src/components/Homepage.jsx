@@ -1,20 +1,22 @@
-import image from '../assets/georgeLogo.png'
-import imageIcon from '../assets/IconOnly.png'
+import imageIcon from "../assets/IconOnly.png";
 
 const Homepage = () => {
-    return (
+  return (
+    <div className="">
+      <div className="flex items-center relative flex-col h-screen">
+        <img
+          src={imageIcon}
+          className="z-[-1] h-1/2 w-1/2 object-scale-down"
+        ></img>
+        <p className="text-9xl alegreya transition-all duration-300 hover:scale-110 text-center relative right-0">
+          George Hernandez
+        </p>
+        <p className="text-5xl alegreya transition-all duration-300 hover:scale-110 text-center relative right-0">
+          Full Stack Web Developer
+        </p>
+      </div>
 
-        <div className=''>
-        <div className='flex items-center relative flex-col h-screen'>
-          
-          <img src={imageIcon} className='z-[-1] h-1/2 w-1/2 object-scale-down'></img>
-          <p className='text-9xl alegreya transition-all duration-300 hover:scale-110 text-center relative right-0'>George Hernandez</p>
-          <p className='text-5xl alegreya transition-all duration-300 hover:scale-110 text-center relative right-0'>Full Stack Web Developer</p>
-        
-        </div>
-
-
-{/* 
+      {/* 
 <section className='flex items-center w-full'>
                 <div className=''>
                 <img src={imageIcon} className='z-[-1] h-1/2 w-1/2'></img>
@@ -24,9 +26,8 @@ const Homepage = () => {
                 
                 </div>
             </section> */}
+    </div>
+  );
+};
 
-        </div>
-    )
-}
-
-export default Homepage
+export default Homepage;
