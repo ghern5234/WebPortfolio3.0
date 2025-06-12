@@ -9,7 +9,7 @@ const About = () => {
             Greetings! My name is George Hernandez based in Austin, Texas.
             Following my passion to become a full-stack software developer. I am
             a recent graduate of the UT Austin coding bootcamp, finishing out
-            with a 90 GPA and honorary mentions. Looking for my first
+            with a 4.0 GPA and honorary mentions. Looking for my first
             professional tech job and put my passion into practice! Some of the
             various languages and frameworks I studied are HTML, CSS,
             JavaScript, Express, Node, SQL, MongoDB, React, Handlebars, GraphQL,
